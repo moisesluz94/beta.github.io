@@ -1,0 +1,442 @@
+/*
+GERAL
+*/
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+.botao {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #FF7000;
+    font-size: .9em;
+    border-radius: 3px;
+}
+.botao:hover {
+    background-color: #FF832B;
+}
+
+/*
+NAVEGAÇÃO -------------------------------------------------------------
+*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 9px 100px;
+    box-sizing: border-box;
+    transition: 2.0s;
+}
+nav.black {
+    z-index: 2;
+    background: rgba(0,0,0,0.9);
+    height: 70px;
+    padding: 0px 200px;
+}
+nav .logo{
+    padding: 2px 20px;
+    height: 80px;
+    float: left;
+    font-size: 20px;
+    transition: 1.5s;
+}
+nav.black .logo{
+    color: #ffff;
+}
+nav ul {
+    list-style: none;
+    float: right;
+     padding: 0;
+    display: flex;
+      margin: 0;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #151515;
+    padding: 10px 05px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+    font-size: 15px;
+}
+nav.black ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+nav ul li a:focus{
+outline: none;
+}
+nav ul li a.active{
+background: #FF7000;
+    color: #fff;
+    padding: 6px;
+    margin-left: 120px;
+    border-radius:6px;
+}
+/*
+CABEÇALHO ---------------------------------------------------------
+*/
+header {
+    background-image: url('img/back.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 50px;
+    min-height: 700px;
+}
+header h1 {
+    font-size: 50px;
+}
+header p {
+    margin-bottom: 1em;
+    font-size: 2.1em;
+}
+/*
+Divisória -------------------------------------------------------------
+*/
+.divisoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #FF7000;
+}
+/*
+Produtividade digital -------------------------------------------------------------
+*/
+#sessao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sessao2 p1 {
+    font-size: 17px;
+    padding: 10px 50% 20px 10%;
+    text-align: right;
+}
+.sessao2 p {
+    font-size: 17px;
+    padding: 10px 10% 20px 35% ;
+    text-align: left;
+}
+.sessao2 h1 {
+    padding: 50px 20px 20px 20px;
+    color: #FF7000;
+    font-size: 30px;
+    font-family:inherit;
+}
+/*
+SERVIÇOS --------------------------------------------------------
+*/
+#servicos {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 0 120px 0;
+}
+#servicos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 1px;
+}
+#fundoservicos{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#fundoservicos h2{
+    padding: 40px;
+    color: #FF7000;
+    font-size: 30px;
+    font-family:inherit;	
+}
+#fundoservicos h3{
+    padding: inherit;
+    color: #FF7000;
+    font-size: 20px;
+    font-family:inherit;	
+}
+div.servicos:hover {
+    border: 0px solid white;
+}
+#servicos p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#servicos div {
+    flex-grow: 1;
+    flex-basis: 150px;
+    padding: 0 10px;
+}
+/*
+Parceiros -------------------------------------------------------
+*/
+.parceiros{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#parceiros h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0 50px 0px;
+    color: #FF7000;
+    font-size: 40px;
+    font-family:inherit;
+}
+#fundoparceiros{
+    background-color: #f1f1f1;
+    padding: 0px 0 50px 20px;
+}
+/*
+Contato /Mapa ----------------------------------------------------------------
+*/
+* {
+    box-sizing: border-box;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #FF7000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #FF832B;
+}
+#sessao5 {
+    display: flex;
+    background-color:
+    margin-top: 50px;
+}
+.cont h1{
+    color: #FF7000;
+    font-size: 40px;
+    font-family:inherit;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.colunacontato {
+    float: left;
+    width: 50%;
+    margin-top: 1px;
+    padding: 30px 100px 10px 10px;
+}
+.colunamapa {
+    z-index: 1;
+    position:relative;
+    float: left;
+    width: 45%;
+    margin-top: 20px;
+    padding: 30px 10px 10px 20px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+/*
+FOOTER / Mídia e telefone 
+*/
+#fundosocialmidia{
+    background-color: #4d4d4d;
+    padding: 0;
+}
+#socialmidia {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex; 
+    margin-top: 50px;
+}
+.socialmidia{    
+    margin-left: 100px;
+}
+.socialmidia img {    
+    flex-grow: 1;
+    padding: 20px;
+    position:relative;
+}
+.socialmidia2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 10;
+    margin-top: 30px;
+}
+.socialmidia p {
+    color: #f1f1f1;
+    margin-bottom: 8px;
+    align-items: center;
+    text-align: center;   
+    margin-top: 22px; 
+    color: #f1f1f1;
+}
+.socialmidia2 p {
+    margin-top: 2px;
+    margin-bottom: 8px;
+    align-items: center;
+    text-align: center; 
+    color: #f1f1f1;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    background-color: #4d4d4d;
+    color: #f1f1f1;
+    font-size: 13px;
+}
+
+/*
+Valores ------------------------------------------------------------
+*/
+/** Efeito Paralax **/
+* {margin:0; padding: 0;}
+html, body {height:100%;}
+
+/** formata elementos que tem backgrounds parallax **/
+.bgParallax {
+    color:#FFF;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    position: relative;
+    min-height: 100%;
+    text-shadow:0 0 20px rgba(0,0,0,0.7);
+    background-position: 50% 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+/* Define backgrounds dos divs */
+#quemsomos {background-image: url(img/1.jpg);}
+#missao {
+    background-image: url(img/2.jpg);
+    -webkit-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -moz-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -ms-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    -o-box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+    box-shadow:-20px 0 20px 5px rgba(0,0,0,0.7);
+}
+/** Formata o article do texto **/
+.bgParallax article {
+  width: 70%;
+  text-align: center;
+  margin:0 auto;
+  padding:1% 0 0 0;
+}
+/** formata texto **/
+article p {line-height: 30px; font-size:18px; margin-top:15px;}
+#missao h1{
+    z-index: 1;
+    position:relative;
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+    padding: 2px;
+    color: #FF7000;
+    font-size: 40px;
+    font-family:inherit;	
+}
+ #missao h2{
+    z-index: 1;
+    position:relative;
+    float:right;
+    width: 45%;
+    margin-top:6px;
+    padding: 10px;
+    color: #FF7000;
+    font-size: 40px;
+    font-family:inherit;	
+}
+
+
+
+
+
+
+/*
+MEDIA QUERIES
+*/
+
+@media screen and (min-width: 768px) {
+    /*
+    NAVEGAÇÃO
+    */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    /*
+    CABEÇALHO
+    */
+    
+    header {
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+    
+    /*
+    SOBRE
+    */
+    
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+    
+    
+    
+    
