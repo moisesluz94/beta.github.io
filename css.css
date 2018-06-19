@@ -82,6 +82,7 @@ background: #FF7000;
     border-radius:6px;
 }
 
+
 /*
 CABEÇALHO ---------------------------------------------------------
 */
@@ -126,13 +127,13 @@ Produtividade digital ----------------------------------------------------------
 }
 .sessao2 p1 {
     font-size: 17px;
-    padding: 10px 50% 20px 10%;
-    text-align: right;
+    padding: 10px 10% 20px 10%;
+    text-align: inherit;
 }
 .sessao2 p {
     font-size: 17px;
-    padding: 10px 10% 20px 35% ;
-    text-align: left;
+    padding: 10px 10% 20px 10% ;
+    text-align: inherit;
 }
 .sessao2 h1 {
     padding: 50px 20px 20px 20px;
@@ -203,14 +204,14 @@ Parceiros -------------------------------------------------------
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 60px 0 50px 0px;
+    padding: 45px 0 10px 0px;
     color: #FF7000;
-    font-size: 40px;
+    font-size: 30px;
     font-family:inherit;
 }
 #fundoparceiros{
     background-color: #f1f1f1;
-    padding: 0px 0 50px 20px;
+    padding: 0px 0 0px 0px;
 }
 /*
 Contato /Mapa ----------------------------------------------------------------
@@ -243,7 +244,7 @@ input[type=submit]:hover {
 }
 .cont h1{
     color: #FF7000;
-    font-size: 40px;
+    font-size: 30px;
     font-family:inherit;
     align-items: center;
     text-align: center;
