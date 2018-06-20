@@ -4,14 +4,13 @@ GERAL
 
 h1, h2, h3 {
     margin: 0;
-    font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 .botao {
     color: #f1f1f1;
     text-decoration: none;
     padding: 10px 30px;
-    background-color: #FF7000;
+    background-color: #FF7000; 
     font-size: .9em;
     border-radius: 3px;
 }
@@ -51,7 +50,6 @@ nav.black .logo{
 nav ul {
     list-style: none;
     float: inherit;
-    padding: 0 0 0 ;
     display: flex;
     margin: -2% 0 0 25%;
 }
@@ -81,7 +79,9 @@ background: #FF7000;
     margin-left: 90%;
     border-radius:6px;
 }
-
+nav ul li a.active:hover {
+    background-color: #FF832B;    
+}
 
 /*
 CABEÇALHO ---------------------------------------------------------
@@ -405,19 +405,7 @@ MEDIA QUERIES
 */
 
 @media screen and (min-width: 768px) {
-    /*
-    NAVEGAÇÃO
-    */
-    nav {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    
-    nav ul {
-        flex-direction: row;
-        width: 70%;
-    }
-    
+
     /*
     CABEÇALHO
     */
